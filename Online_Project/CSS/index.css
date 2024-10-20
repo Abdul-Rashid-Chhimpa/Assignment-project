@@ -1,0 +1,21 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+#dashboard {
+    background-image: url('assets/dashboard-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#stories,
+#profile,
+#settings {
+    transition: background-color 0.3s ease;
+}
+
+#stories:hover,
+#profile:hover,
+#settings:hover {
+    background-color: #f7f7f7;
+}
